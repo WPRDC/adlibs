@@ -49,6 +49,6 @@ twttr.ready(function (twttr) {
             size: "large",
             related: "",
             text: msg,
-            hashtags: "wprdc opendata abstractions"
+            hashtags: "wprdc,opendata,abstractions"
         });
 });
