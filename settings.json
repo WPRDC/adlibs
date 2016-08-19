@@ -1,0 +1,145 @@
+{
+  "url": "https://data.wprdc.org/",
+  "fields": [
+    {
+      "name": "neighborhood",
+      "type": "string",
+      "resource": "40776043-ad00-40f5-9dc8-1fde865ff571",
+      "field": "NEIGHBORHOOD",
+      "description": "Pittsburgh neighborhood"
+    },
+    {
+      "name": "municipality",
+      "type": "string",
+      "resource": "deac45d9-3599-4711-88ab-cacc4e570bd9",
+      "field": "LABEL",
+      "description": "Allegheny county municipality"
+    },
+    {
+      "name": "dog-name",
+      "type": "string",
+      "resource": "4d49202b-8bac-4cf9-9915-798a342253a6",
+      "field": "DogName",
+      "description": "Dog name from County Dog License dataset"
+    },
+    {
+      "name": "crime",
+      "type": "string",
+      "resource": "c0fcc09a-7ddc-4f79-a4c1-9542301ef9dd",
+      "field": "DESCRIPTION",
+      "description": "Crime name taken from Police Blotter Datset"
+    },
+    {
+      "name": "drug",
+      "type": "string",
+      "resource": "502136a8-649b-44c5-9b08-ec2733201e5f",
+      "field": "Combined OD1",
+      "description": "Drug name from Accidental Overdose dataset"
+    },
+    {
+      "name": "dollars",
+      "type": "money",
+      "resource": "518b583f-7cc8-4f60-94d0-174cc98310dc",
+      "field": "SALEPRICE",
+      "description": "Property value from County property assessment dataset"
+    },
+    {
+      "name": "dog-breed",
+      "type": "string",
+      "resource": "4d49202b-8bac-4cf9-9915-798a342253a6",
+      "field": "Breed",
+      "description": "Dog breed from County dog license dataset"
+    },
+    {
+      "name": "street",
+      "type": "string",
+      "resource": "4e5374be-1a88-47f7-afee-6a79317019b4",
+      "field": "STREET_NAME",
+      "description": "Pittsburgh Street name"
+    },
+    {
+      "name": "cemetery",
+      "type": "string",
+      "resource": "4c9d17ef-2a56-46f3-b353-a28e066f8b05",
+      "field": "NAME",
+      "description": "Name of cemetery in Allegheny County"
+    },
+    {
+      "name": "park",
+      "type": "string",
+      "resource": "b2ff2aca-92cc-422b-ac45-8313ac8c894e",
+      "field": "Facility",
+      "description": "Park name form Allegheny County comprehensive Parks dataset"
+    },
+    {
+      "name": "facility",
+      "type": "string",
+      "resource": "d4554647-2a7e-4f56-9c12-52a838113107",
+      "field": "FACILITY",
+      "description": "Allegheny County Public Facility"
+    },
+    {
+      "name": "corrective-action",
+      "type": "string",
+      "resource": "4e5374be-1a88-47f7-afee-6a79317019b4",
+      "field": "CORRECTIVE_ACTION",
+      "description": "Corrective action for violation in Pittsburgh's PLI violation dataset "
+    },
+    {
+      "name": "park-program",
+      "type": "string",
+      "resource": "feae9f33-d2e7-4586-898b-c1857b31cbbd",
+      "field": "Programming",
+      "description": "Name of Citiparks park program "
+    },
+    {
+      "name": "true-false",
+      "type": "bool",
+      "resource": "0a5408a4-8358-4b14-9317-090db7c61fd9",
+      "field": "job_complete",
+      "description": "True or False"
+    },
+    {
+      "name": "library-branch",
+      "type": "string",
+      "resource": "2ba0788a-2f35-43aa-a47c-89c75f55cf9d",
+      "field": "Name",
+      "description": "Name of Carnegie Library Branch"
+    },
+    {
+      "name": "plumber-first-name",
+      "type": "string",
+      "resource": "e8e2e1a7-8a06-4d69-8a0d-12f9e4e99b86",
+      "field": "First Name",
+      "description": "First name of registered plumber within Allegheny County"
+    },
+    {
+      "name": "plumber-last-name",
+      "type": "string",
+      "resource": "e8e2e1a7-8a06-4d69-8a0d-12f9e4e99b86",
+      "field": "Last Name",
+      "description": "Last name of registered plumber within Allegheny County."
+    },
+    {
+      "name": "candidate-name",
+      "type": "string",
+      "resource": "6cafc8ab-4839-4f8b-8ef1-b4fd725a6035",
+      "field": "Cand. Name",
+      "description": "Candidate in Allegheny County in 2015 Primary (various positions)"
+    },
+    {
+      "name": "playground-name",
+      "type": "string",
+      "resource": "40097711-aa25-47d9-b0fb-920cace3afa0",
+      "field": "Facility",
+      "description": "Name of City of Pittsburgh public playground"
+    },
+    {
+      "name": "remedy",
+      "type": "string",
+      "resource": "f3df0760-54cc-4279-b7c8-a12a60f4f0f6",
+      "field": "REMEDY",
+      "description": "Proposed remedy for Allegheny County House and Community Environment violation"
+    }
+  ]
+}

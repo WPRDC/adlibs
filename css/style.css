@@ -1,0 +1,65 @@
+p, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading h1, h2, h3 {
+    color: #565656;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#heading h1 {
+    font-weight: 600;
+}
+
+#heading h1 a{
+    color: #565656;
+}
+
+.lib{
+    font-weight: 800;
+}
+
+#main-content {
+    background: #EFEFEF;
+}
+
+#about-modal {
+    border: 3px none #565656;
+    background: whitesmoke;
+}
+
+#field-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+#field-list li {
+    list-style: none;
+    padding-right: 5px;
+}
+
+#story {
+    font-size: 18pt;
+}
+
+.story-box {
+    border: 2px solid #565656;
+    background: whitesmoke;
+}
+
+body {
+    background: #EFEFEF;
+}
+
+.has-tip {
+    border-bottom: none;
+}
+
+.share-zone {
+    padding-top: 1rem;
+}
+
+.lead{
+    font-weight: 600;
+}
