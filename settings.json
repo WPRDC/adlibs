@@ -13,7 +13,7 @@
       "type": "string",
       "resource": "deac45d9-3599-4711-88ab-cacc4e570bd9",
       "field": "LABEL",
-      "description": "Allegheny county municipality"
+      "description": "Allegheny County municipality"
     },
     {
       "name": "dog-name",
@@ -25,9 +25,9 @@
     {
       "name": "crime",
       "type": "string",
-      "resource": "c0fcc09a-7ddc-4f79-a4c1-9542301ef9dd",
-      "field": "DESCRIPTION",
-      "description": "Crime name taken from Police Blotter Datset"
+      "resource": "6b11e87d-1216-463d-bbd3-37460e539d86",
+      "field": "OFFENSES",
+      "description": "Crime descriptiontaken from Non-Traffic Citations"
     },
     {
       "name": "drug",
@@ -102,7 +102,7 @@
     {
       "name": "library-branch",
       "type": "string",
-      "resource": "2ba0788a-2f35-43aa-a47c-89c75f55cf9d",
+      "resource": "14babf3f-4932-4828-8b49-3c9a03bae6d0",
       "field": "Name",
       "description": "Name of Carnegie Library Branch"
     },
