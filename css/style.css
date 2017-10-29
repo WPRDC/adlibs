@@ -3,11 +3,12 @@ p, h4, h5 {
 }
 
 #heading h1, h2, h3 {
-    color: #565656;
-    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-family: 'Creepster', cursive;
 }
 
 #heading h1 {
+    font-size: 4em;
     font-weight: 600;
 }
 
@@ -20,7 +21,7 @@ p, h4, h5 {
 }
 
 #main-content {
-    background: #EFEFEF;
+    background: #ee9100;
 }
 
 #about-modal {
@@ -45,11 +46,11 @@ p, h4, h5 {
 
 .story-box {
     border: 2px solid #565656;
-    background: whitesmoke;
+    background: #ffe035;
 }
 
 body {
-    background: #EFEFEF;
+    background: #ee9100;
 }
 
 .has-tip {

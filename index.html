@@ -14,15 +14,16 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Nosifer" rel="stylesheet">
 </head>
 
 <body>
 
 <!--_______________________ Heading _______________________-->
 <div id="heading">
-    <h1 class="text-center">Open Data Story Generator</h1>
-    <h4 class="text-center">Make random stories about your community with open data from the</h4>
-    <h4 class="text-center"><a target="_blank" href="http://www.wprdc.org">Western Pennsylvania Regional Data Center</a>
+    <h1 class="text-center">Spooky Name Generator</h1>
+    <h4 class="text-center">Make a Halloween character for yourself using open data from the</h4>
+    <h4 class="text-center"><a target="_blank" href="http://www.wprdc.org" style="color:#8a0707;font-family:'Nosifer'">Western Pennsylvania Regional Deadly Center</a>
     </h4>
 </div>
 
@@ -33,13 +34,16 @@
 
     <!-- Text Entry -->
     <div class="medium-6  columns">
-        <h4>Your Story:</h4>
-        <textarea id="story-box" style="resize: none;" rows="8">(plumber-first-name) left home in (neighborhood) early one morning to take (dog-name) for a walk before leaving for work. Being a (dog-breed), the dog insisted on smelling everything along (street). The two soon came across (candidate-name) outside the (library-branch), where they both watched an angry mob protesting (crime) in the neighborhood. They both agreed that more open data from the Western Pennsylvania Regional Data Center and (park-program) would make their community a better place.</textarea>
+        <h4>Your Spooky Persona:</h4>
+        <textarea id="story-box" style="resize: none;" rows="8">(dog-name) the (adjective), (another-adjective) (monster)<br>
+        <br>
+        Last seen: (cemetery)<br>
+        Wanted for: (crime)</textarea>
         <div class="medium-6 columns" style="padding: 2px;">
-            <button class="button success expanded gen-btn">Generate</button>
+            <button class="button secondary expanded gen-btn">Generate</button>
         </div>
         <div class="medium-6 columns" style="padding: 2px;">
-            <button data-open="about-modal" class="button expanded" id="about-btn">Instructions</button>
+            <button data-open="about-modal" class="button expanded alert" id="about-btn">Instructions</button>
         </div>
     </div>
 
@@ -64,13 +68,13 @@
             <button id="back-btn" class="button expanded alert">Back</button>
         </div>
         <div class="small-6 columns">
-            <button class="button success expanded gen-btn">Re-Generate</button>
+            <button class="button secondary expanded gen-btn">Re-Generate</button>
         </div>
     </div>
 </div>
 <br>
 <div class="column row medium-3 large-2">
-    <button id="share-btn" class="button expanded text-center">Share Your Story</button>
+    <button id="share-btn" class="button secondary expanded text-center">Share Your Story</button>
 </div>
 
 <!--_______________________ About Popup _______________________-->
