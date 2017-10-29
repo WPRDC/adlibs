@@ -33,8 +33,12 @@ $.getJSON("settings.json", function (data) {
 var buildContext = function (fields) {
     for (var i = 0; i < fields.length; i++) {
         var field = fields[i];
-
-        var p = getRandomItem(url, field);
+        if (field.alt_url) {
+            alt_url = field.alt_url;
+            var p = getRandomItem(alt_url, field);
+        } else {
+            var p = getRandomItem(url, field);
+        }
         promises.push(p);
     }
 };

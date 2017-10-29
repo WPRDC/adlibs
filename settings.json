@@ -2,6 +2,30 @@
   "url": "https://data.wprdc.org/",
   "fields": [
     {
+      "name": "adjective",
+      "type": "string",
+      "resource": "ad900a43-f56b-4336-8dd8-28a46d58c4b2",
+      "field": "adjective",
+      "alt_url": "http://wprdcsandbox.ogopendata.com/",
+      "description": "Adjective"
+    },
+    {
+      "name": "another-adjective",
+      "type": "string",
+      "resource": "ad900a43-f56b-4336-8dd8-28a46d58c4b2",
+      "field": "adjective",
+      "alt_url": "http://wprdcsandbox.ogopendata.com/",
+      "description": "Another (probably different) djective"
+    },
+    {
+      "name": "monster",
+      "type": "string",
+      "resource": "b6d0acf5-646a-4193-96ed-01a7892c85fc",
+      "field": "monster",
+      "alt_url": "http://wprdcsandbox.ogopendata.com/",
+      "description": "Name of a monster"
+    },
+    {
       "name": "neighborhood",
       "type": "string",
       "resource": "40776043-ad00-40f5-9dc8-1fde865ff571",
