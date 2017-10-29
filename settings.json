@@ -23,6 +23,13 @@
       "description": "Dog name from County Dog License dataset"
     },
     {
+      "name": "another-dog-name",
+      "type": "string",
+      "resource": "4d49202b-8bac-4cf9-9915-798a342253a6",
+      "field": "DogName",
+      "description": "Another dog name from County Dog License dataset"
+    },
+    {
       "name": "crime",
       "type": "string",
       "resource": "6b11e87d-1216-463d-bbd3-37460e539d86",
