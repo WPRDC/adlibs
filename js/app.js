@@ -55,7 +55,7 @@ var getRandomItem = function (url, field) {
 
     var params = {
         "sql": "SELECT \"" + ckan_field + "\" FROM \"" + resource + "\" " +
-        "WHERE (\"" + ckan_field + "\" IS NOT NULL " + extraCondition + ")LIMIT 2000;"
+        "WHERE (\"" + ckan_field + "\" IS NOT NULL " + extraCondition + ") LIMIT 2000;"
     };
 
     return $.ajax({
